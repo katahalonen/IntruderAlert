@@ -28,7 +28,8 @@ public class InputManager : MonoBehaviour
     }
     private void Update()
     {
-       look.ProcessLook(onFoot.Look.ReadValue<Vector2>());
+        // Tell the camera to move using the value from our look action.
+        look.ProcessLook(onFoot.Look.ReadValue<Vector2>());
     }
     private void OnEnable()
     {
