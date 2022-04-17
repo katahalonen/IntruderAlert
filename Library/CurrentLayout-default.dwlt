@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 15
+  controlID: 19
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 553
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 16
+  controlID: 20
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 17
+  controlID: 21
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -406,13 +406,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Buildings
+    - Assets/Abandoned_Asylum/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Buildings
+  - Assets/Abandoned_Asylum/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\katah\\OneDrive\\Ty\xF6p\xF6yt\xE4\\JAMK\\Game Engine
     1\\Intruder Alert\\IntruderAlert"
@@ -420,9 +420,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4c6d0000
-    m_LastClickedID: 27980
-    m_ExpandedIDs: 00000000f84000002a410000fc41000000ca9a3b
+    m_SelectedIDs: 264e0000
+    m_LastClickedID: 20006
+    m_ExpandedIDs: 00000000544d00005a4d00005c4d00005e4d0000604d0000624d00003a4e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -438,7 +438,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -450,7 +450,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f8400000
+    m_ExpandedIDs: 00000000544d0000564d0000584d00005a4d00005c4d00005e4d0000604d0000624d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -573,7 +573,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b858fdff3605ffff501bffff3a26ffff6e8cffff6cfbffff
+      m_ExpandedIDs: bef0fcffc4f0fcff824ffdff1650fdff5050fdff0054fdff6454fdff9856fdffbc58fdffd858fdff0059fdff0459fdffe4b7feffb0bbfeff92c7feff1cc8feff08cafeff48d2feff7ed2feff6cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -633,9 +633,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 12.430304, y: 36.315243, z: -8.552666}
+    m_Target: {x: -34.90496, y: -18.597984, z: 88.52873}
     speed: 2
-    m_Value: {x: 12.430304, y: 36.315243, z: -8.552666}
+    m_Value: {x: -34.90496, y: -18.597984, z: 88.52873}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -682,13 +682,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.06264952, y: -0.8520827, z: 0.5090228, w: 0.10480781}
+    m_Target: {x: 0.36182752, y: 0.034947466, z: -0.013574707, w: 0.9314928}
     speed: 2
-    m_Value: {x: 0.06264768, y: -0.85205775, z: 0.5090079, w: 0.10480473}
+    m_Value: {x: 0.36182687, y: 0.034947403, z: -0.013574683, w: 0.93149114}
   m_Size:
-    m_Target: 89.095505
+    m_Target: 17.09787
     speed: 2
-    m_Value: 89.095505
+    m_Value: 17.903528
   m_Ortho:
     m_Target: 0
     speed: 2
