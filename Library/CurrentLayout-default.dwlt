@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Project
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 119
+  controlID: 15
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 120
+  controlID: 16
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 121
+  controlID: 17
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -327,8 +327,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -538
     m_HBaseRangeMax: 538
-    m_VBaseRangeMin: -304.5
-    m_VBaseRangeMax: 304.5
+    m_VBaseRangeMin: -294
+    m_VBaseRangeMax: 294
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -345,11 +345,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1076
-      height: 609
+      height: 588
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 538, y: 304.5}
+    m_Translation: {x: 538, y: 294}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -357,9 +357,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -538
-      y: -304.5
+      y: -294
       width: 1076
-      height: 609
+      height: 588
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1076, y: 609}
@@ -406,13 +406,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Apocalyptic_World/Art/Textures
+    - Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Buildings
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Apocalyptic_World/Art/Textures
+  - Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Buildings
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\katah\\OneDrive\\Ty\xF6p\xF6yt\xE4\\JAMK\\Game Engine
     1\\Intruder Alert\\IntruderAlert"
@@ -420,9 +420,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 48410000
-    m_LastClickedID: 16712
-    m_ExpandedIDs: 00000000f8400000124100001c41000000ca9a3b
+    m_SelectedIDs: 4c6d0000
+    m_LastClickedID: 27980
+    m_ExpandedIDs: 00000000f84000002a410000fc41000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,7 +502,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 210}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 331
+    m_CachedPref: 513
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -573,7 +573,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6cfbffff
+      m_ExpandedIDs: b858fdff3605ffff501bffff3a26ffff6e8cffff6cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -633,9 +633,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -14.974188, y: 5.6593, z: -9.170191}
+    m_Target: {x: 12.430304, y: 36.315243, z: -8.552666}
     speed: 2
-    m_Value: {x: -14.974188, y: 5.6593, z: -9.170191}
+    m_Value: {x: 12.430304, y: 36.315243, z: -8.552666}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -677,18 +677,18 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.22202715, y: 0.2601312, z: -0.061596673, w: 0.9376874}
+    m_Target: {x: 0.06264952, y: -0.8520827, z: 0.5090228, w: 0.10480781}
     speed: 2
-    m_Value: {x: -0.22202715, y: -0.2601312, z: 0.061596673, w: -0.93768734}
+    m_Value: {x: 0.06264768, y: -0.85205775, z: 0.5090079, w: 0.10480473}
   m_Size:
-    m_Target: 7.719699
+    m_Target: 89.095505
     speed: 2
-    m_Value: 7.719699
+    m_Value: 89.095505
   m_Ortho:
     m_Target: 0
     speed: 2

@@ -15,11 +15,11 @@ C:/Users/katah/OneDrive/Työpöytä/JAMK/Game Engine 1/Intruder Alert/IntruderAl
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62865
+54514
 Successfully changed project path to: C:/Users/katah/OneDrive/Työpöytä/JAMK/Game Engine 1/Intruder Alert/IntruderAlert
 C:/Users/katah/OneDrive/Työpöytä/JAMK/Game Engine 1/Intruder Alert/IntruderAlert
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 285.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014768 seconds.
+Registered in 0.002115 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 290.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.354 seconds
+- Completed reload, in  0.482 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3355ms)
-		BeginReloadAssembly (322ms)
+	ReloadAssembly (482ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (2684ms)
-			LoadAssemblies (311ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (376ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (912ms)
+			SetupTypeCache (123ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (1063ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (144ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (291ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (490ms)
-				ProcessInitializeOnLoadMethodAttributes (166ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.026551 seconds.
+Registered in 0.003815 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 280.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.570 seconds
+- Completed reload, in  0.920 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6574ms)
-		BeginReloadAssembly (815ms)
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (27ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (5370ms)
-			LoadAssemblies (498ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1765ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (249ms)
-			SetupLoadedEditorAssemblies (2166ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (304ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (281ms)
-				BeforeProcessingInitializeOnLoad (420ms)
-				ProcessInitializeOnLoadAttributes (1353ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (37ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (35ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1846 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 166.5 MB.
 System memory in use after: 166.6 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2295.
-Total: 14.526000 ms (FindLiveObjects: 0.493500 ms CreateObjectMapping: 0.292700 ms MarkObjects: 13.495200 ms  DeleteObjects: 0.240200 ms)
+Total: 2.673100 ms (FindLiveObjects: 0.132700 ms CreateObjectMapping: 0.037700 ms MarkObjects: 2.448800 ms  DeleteObjects: 0.053000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,665 +134,1223 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Apocalyptic_World/Art/Textures/Window_4.bmp
-  artifactKey: Guid(644b7ee8532c02141bc54657f44ca7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Window_4.bmp using Guid(644b7ee8532c02141bc54657f44ca7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbec344a7847d2c7ed7459e62cc035c') in 0.217161 seconds 
-  Import took 0.231747 seconds .
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Veg
+  artifactKey: Guid(5e31bfe6f7fe04b46a15dea60457d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Veg using Guid(5e31bfe6f7fe04b46a15dea60457d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f012acfc1e37248df0a48a518de37256') in 0.009648 seconds 
+  Import took 0.014073 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Building_Shop_Green.tga
-  artifactKey: Guid(0dd04f84952a94b4a95a405ae08aa1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Building_Shop_Green.tga using Guid(0dd04f84952a94b4a95a405ae08aa1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00495b7250c8ea8f4c6dbf9bb6582047') in 0.197599 seconds 
-  Import took 0.205195 seconds .
+  Time since last request: 4.878860 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Structures
+  artifactKey: Guid(cbe36ac6c732b1540afdf4bcb05be8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Structures using Guid(cbe36ac6c732b1540afdf4bcb05be8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bff35a42efa3ed77cf04fd44352790a') in 0.006738 seconds 
+  Import took 0.010013 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/City_Map_01_n.bmp
-  artifactKey: Guid(fd6da6f5a24fc1c498da2512d014d7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/City_Map_01_n.bmp using Guid(fd6da6f5a24fc1c498da2512d014d7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be068c878d701ee97a3e2dfc2e5b597') in 0.193081 seconds 
-  Import took 0.201902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000577 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Cloth.tga
-  artifactKey: Guid(8795adb7a4f58a24bb9c456af87f4bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Cloth.tga using Guid(8795adb7a4f58a24bb9c456af87f4bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a6611214c6965ff3313b8d55c32d21') in 0.020785 seconds 
-  Import took 0.028459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Aston_n.bmp
-  artifactKey: Guid(d78a011992893d84a80a44f65cfb061a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Aston_n.bmp using Guid(d78a011992893d84a80a44f65cfb061a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61b2c7122ca7f8ab81cb0eaedb574eb') in 0.011921 seconds 
-  Import took 0.014429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000538 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Lambo_n.bmp
-  artifactKey: Guid(7c871b3a8de202846a602223e4dd9790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Lambo_n.bmp using Guid(7c871b3a8de202846a602223e4dd9790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f886b9868008f891efba1afb04ac3d2') in 0.014737 seconds 
-  Import took 0.017225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Building_Shop_Red.tga
-  artifactKey: Guid(a80f3672e8f87dc4dbada96073de03ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Building_Shop_Red.tga using Guid(a80f3672e8f87dc4dbada96073de03ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fbafdbb7c9485564acc2c7da6f950e') in 0.012688 seconds 
-  Import took 0.015227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Building_Shop_DouchManic.tga
-  artifactKey: Guid(e82f6f4535d411442b93e55c7d01b504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Building_Shop_DouchManic.tga using Guid(e82f6f4535d411442b93e55c7d01b504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1cb4483b08cf532f8c6b0eda107a08') in 0.026412 seconds 
-  Import took 0.028975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Trim_Pavements_n.bmp
-  artifactKey: Guid(2f72f2fe6e2f00c44b3a44d27eb466db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Trim_Pavements_n.bmp using Guid(2f72f2fe6e2f00c44b3a44d27eb466db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312b9121c118d42c9717a8572261ce10') in 0.017001 seconds 
-  Import took 0.020129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Cliff_02.bmp
-  artifactKey: Guid(98afda6c1d015b545a07132b3b8fbcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Cliff_02.bmp using Guid(98afda6c1d015b545a07132b3b8fbcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15775b3499afc83dbaa6fa1cb995797c') in 0.012809 seconds 
-  Import took 0.015325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Window_5_n.bmp
-  artifactKey: Guid(11c428571f686a045b23f3468c319a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Window_5_n.bmp using Guid(11c428571f686a045b23f3468c319a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475656b6d23286fdafeafff73ea4a88f') in 0.022431 seconds 
-  Import took 0.024980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Log_end_n.bmp
-  artifactKey: Guid(cefe877d6f277d744af48c88937fe4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Log_end_n.bmp using Guid(cefe877d6f277d744af48c88937fe4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a79bf17ab0b900e6e4f9a7643e6f880') in 0.010808 seconds 
-  Import took 0.013402 seconds .
+  Time since last request: 64.481758 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_HorseCorpse_01.FBX
+  artifactKey: Guid(7cec48afa84196b46a94da47b2e8a94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_HorseCorpse_01.FBX using Guid(7cec48afa84196b46a94da47b2e8a94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d0c3f6b7f4bcf19f9703e20dc8a4df') in 0.198558 seconds 
+  Import took 0.201745 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000208 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Cliff_04.bmp
-  artifactKey: Guid(7bd681781f17bc944a038032c783107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Cliff_04.bmp using Guid(7bd681781f17bc944a038032c783107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7a6990774754e65893fe6e39f6f09f') in 0.013765 seconds 
-  Import took 0.016583 seconds .
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Box_02.FBX
+  artifactKey: Guid(55bfb8fa7fd08264db690cef46cdc096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Box_02.FBX using Guid(55bfb8fa7fd08264db690cef46cdc096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7053ce14c11cf45c9190cb59c32777f') in 0.032525 seconds 
+  Import took 0.035386 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/palmleaf_n.bmp
-  artifactKey: Guid(0bcb1b39711a69548be88b019c01fb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/palmleaf_n.bmp using Guid(0bcb1b39711a69548be88b019c01fb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc55cbe5cbd42eb79c2e448827f25a8e') in 0.012022 seconds 
-  Import took 0.014617 seconds .
+  Time since last request: 0.000168 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Can_03.FBX
+  artifactKey: Guid(a57113bbf1b446545b1b6e4ebf1c4fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Can_03.FBX using Guid(a57113bbf1b446545b1b6e4ebf1c4fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41544449815e613c4b2089c809724087') in 0.032182 seconds 
+  Import took 0.035823 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Trim_Pavements_2.bmp
-  artifactKey: Guid(d53c3de486b241e4ea987974b1754ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Trim_Pavements_2.bmp using Guid(d53c3de486b241e4ea987974b1754ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb59fcc63f09d60822519e6e730bfdf') in 0.010864 seconds 
-  Import took 0.013513 seconds .
+  Time since last request: 0.000171 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_WalkWay_01.FBX
+  artifactKey: Guid(5ff279542a7af7446b34252b8b4ff14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_WalkWay_01.FBX using Guid(5ff279542a7af7446b34252b8b4ff14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03767fdb919aa56f9f31c5336e91cd8') in 0.058532 seconds 
+  Import took 0.061703 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Window_2.bmp
-  artifactKey: Guid(02c3cccc17649f045bad145f8dd75fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Window_2.bmp using Guid(02c3cccc17649f045bad145f8dd75fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524ba9a21a58e271b2219e6ed6357085') in 0.011904 seconds 
-  Import took 0.014432 seconds .
+  Time since last request: 0.000154 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Sandbag_02.FBX
+  artifactKey: Guid(a4c3849c3077c344abff25db8486a8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Sandbag_02.FBX using Guid(a4c3849c3077c344abff25db8486a8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad68fc086fd6bf0a3bab6b51f59ebbb') in 0.052379 seconds 
+  Import took 0.056770 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Car_3_n.bmp
-  artifactKey: Guid(3b18143bcda921f4da7b17e4ae914c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Car_3_n.bmp using Guid(3b18143bcda921f4da7b17e4ae914c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896c97c99e68a816419830a35168a093') in 0.013637 seconds 
-  Import took 0.016194 seconds .
+  Time since last request: 0.000174 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_TrafficLight_01.FBX
+  artifactKey: Guid(f176347b12ede154392f16f5e9097763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_TrafficLight_01.FBX using Guid(f176347b12ede154392f16f5e9097763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d89bd6e39aa7579918fa33ba5de1246') in 0.043907 seconds 
+  Import took 0.048457 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Aston.bmp
-  artifactKey: Guid(ef2b391f8fb11724cb895e1c285fb16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Aston.bmp using Guid(ef2b391f8fb11724cb895e1c285fb16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d879a0570d25d96735fcb9904f5538') in 0.020377 seconds 
-  Import took 0.023146 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Can_02.FBX
+  artifactKey: Guid(a00e14663ecb4cf45898379862d6d18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Can_02.FBX using Guid(a00e14663ecb4cf45898379862d6d18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bbcd0fb09645160733f23bef447119') in 0.029890 seconds 
+  Import took 0.033537 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Cliff_02_n.bmp
-  artifactKey: Guid(cc4bd418b98f5f94694f6c08067162bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Cliff_02_n.bmp using Guid(cc4bd418b98f5f94694f6c08067162bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c0c4bd0ee5281fd50cc78cc86972df') in 0.012876 seconds 
-  Import took 0.015722 seconds .
+  Time since last request: 0.000137 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_TrafficSign_01.FBX
+  artifactKey: Guid(de208b9c59bfcc94c868a9c18bcacb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_TrafficSign_01.FBX using Guid(de208b9c59bfcc94c868a9c18bcacb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5131dc7c26887f8c2ca2c962774af047') in 0.033366 seconds 
+  Import took 0.036766 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000808 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Rock_01.bmp
-  artifactKey: Guid(d644c824e68292c4f82479ee7c94bdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Rock_01.bmp using Guid(d644c824e68292c4f82479ee7c94bdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a4f14fe2fe191b55cf7bbace26651d') in 0.013661 seconds 
-  Import took 0.017020 seconds .
+  Time since last request: 0.000143 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Box_01.FBX
+  artifactKey: Guid(95ce0ba7af15c3a419fa7b31eb98a5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Box_01.FBX using Guid(95ce0ba7af15c3a419fa7b31eb98a5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a568a5ef2544e1883b5e3709f700d25') in 0.034507 seconds 
+  Import took 0.037805 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Veg_Tree_Fir_01.tga
-  artifactKey: Guid(f312e052c4b89e2429a00e05c179a0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Veg_Tree_Fir_01.tga using Guid(f312e052c4b89e2429a00e05c179a0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391f171ab2f567ccde63b00b54b276fd') in 0.013533 seconds 
-  Import took 0.017066 seconds .
+  Time since last request: 0.000131 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_WalkWay_Stairs_01.FBX
+  artifactKey: Guid(daf8dc7638557a64a8fc3e9df0e862a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_WalkWay_Stairs_01.FBX using Guid(daf8dc7638557a64a8fc3e9df0e862a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4bc52b7c3a52ec17e3f61c0868b1fa') in 0.035702 seconds 
+  Import took 0.038978 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/RoadMarkings.tga
-  artifactKey: Guid(a3a97af50d421c94ba4a107a8e554a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/RoadMarkings.tga using Guid(a3a97af50d421c94ba4a107a8e554a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e5bb726bcee8c46a7d643172ec8343') in 0.029551 seconds 
-  Import took 0.033472 seconds .
+  Time since last request: 0.000158 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_WalkWay_02.FBX
+  artifactKey: Guid(fd5ed4598b8d4c64fa67c2d3a63157d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_WalkWay_02.FBX using Guid(fd5ed4598b8d4c64fa67c2d3a63157d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9185196f3233d37cb1486551f6df9f6e') in 0.025184 seconds 
+  Import took 0.028536 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Log_end.bmp
-  artifactKey: Guid(358eb1e593f6bc947ab87c1d662d5dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Log_end.bmp using Guid(358eb1e593f6bc947ab87c1d662d5dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126bfcb01a8297856e7e08fcabcde64d') in 0.014396 seconds 
-  Import took 0.017046 seconds .
+  Time since last request: 0.000166 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Gate_Door_01.FBX
+  artifactKey: Guid(8872230eee3f9cd4381ce07151853f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Gate_Door_01.FBX using Guid(8872230eee3f9cd4381ce07151853f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd4b575976785ced8b1f4e84b7c49ea') in 0.032240 seconds 
+  Import took 0.035279 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001229 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Veg_Fern_n.bmp
-  artifactKey: Guid(1b0ecdc50e1adea42a9732555a7fab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Veg_Fern_n.bmp using Guid(1b0ecdc50e1adea42a9732555a7fab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fab7764d39f592193f12a2e10baf9a') in 0.008636 seconds 
-  Import took 0.011737 seconds .
+  Time since last request: 0.000152 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Pizza_01.FBX
+  artifactKey: Guid(9ed068c5ab1d9b74bb066b4e08f362d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Pizza_01.FBX using Guid(9ed068c5ab1d9b74bb066b4e08f362d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c728621ab9d4e128a723aaec568d1d3c') in 0.029042 seconds 
+  Import took 0.032503 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000535 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/ChainLink.tga
-  artifactKey: Guid(1238aff0a7517f54dbc08fe1765593da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/ChainLink.tga using Guid(1238aff0a7517f54dbc08fe1765593da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15c504d12e104ec666c4d4414013d12') in 0.013437 seconds 
-  Import took 0.019610 seconds .
+  Time since last request: 0.000155 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Sandbag_04.FBX
+  artifactKey: Guid(c979b9521931e804d96121f44a5bd0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Sandbag_04.FBX using Guid(c979b9521931e804d96121f44a5bd0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75b367c3a9f065ce135c0067ffb3ac3') in 0.028922 seconds 
+  Import took 0.031817 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000571 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Cliff_01_n.bmp
-  artifactKey: Guid(44bfdb0871b7a6646ad39b8eb4ef0fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Cliff_01_n.bmp using Guid(44bfdb0871b7a6646ad39b8eb4ef0fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8458d634acc68eee8b5951f4c3c10392') in 0.026094 seconds 
-  Import took 0.031328 seconds .
+  Time since last request: 0.000198 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Paper_01.FBX
+  artifactKey: Guid(1dcd0032c6788974f9c4a27a2dec2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Paper_01.FBX using Guid(1dcd0032c6788974f9c4a27a2dec2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bcb19be72a0bca3aa49005265931fa') in 0.028045 seconds 
+  Import took 0.032007 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000604 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Veg_Fern.tga
-  artifactKey: Guid(1671d8dd0da21fd4090faaf633685d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Veg_Fern.tga using Guid(1671d8dd0da21fd4090faaf633685d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef446a4837b2334d23d0e9f3f428b6b') in 0.012069 seconds 
-  Import took 0.014639 seconds .
+  Time since last request: 0.000145 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Scaf_02.FBX
+  artifactKey: Guid(0789ecf5e77172b468218d92c00c5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Scaf_02.FBX using Guid(0789ecf5e77172b468218d92c00c5051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee1958179c06790c71a041762f42b04') in 0.037675 seconds 
+  Import took 0.041170 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Cliff_03.bmp
-  artifactKey: Guid(5dcfe093b7da2404aa345e54113a04d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Cliff_03.bmp using Guid(5dcfe093b7da2404aa345e54113a04d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11add74227b3390cfdaddb12f77b0a7f') in 0.010730 seconds 
-  Import took 0.013280 seconds .
+  Time since last request: 0.000166 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Lampost_01.FBX
+  artifactKey: Guid(0cb7571e17fb56f47a7c17eb148606d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Lampost_01.FBX using Guid(0cb7571e17fb56f47a7c17eb148606d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1be2f8011bf3d9b05377f85e7b14d0') in 0.035320 seconds 
+  Import took 0.039047 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Signs.bmp
-  artifactKey: Guid(6022efa9c5fa3164294f77a9130048cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Signs.bmp using Guid(6022efa9c5fa3164294f77a9130048cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6281f4aa3958ec32efacc031d98d32') in 0.010111 seconds 
-  Import took 0.012752 seconds .
+  Time since last request: 0.000187 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Scaf.FBX
+  artifactKey: Guid(ba52aa0865cd2844d9150ee8d641accb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Scaf.FBX using Guid(ba52aa0865cd2844d9150ee8d641accb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac9d004aa068c2204f00683967be064') in 0.037100 seconds 
+  Import took 0.040844 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Window_4_n.bmp
-  artifactKey: Guid(b35ef44abedd9294084ccb58752ba923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Window_4_n.bmp using Guid(b35ef44abedd9294084ccb58752ba923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6941a6ea6a4b6c759099bb835d2af1') in 0.012118 seconds 
-  Import took 0.014638 seconds .
+  Time since last request: 0.000144 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_TrafficLight_02.FBX
+  artifactKey: Guid(ce322634a8551c2459a9ea8a09a8139b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_TrafficLight_02.FBX using Guid(ce322634a8551c2459a9ea8a09a8139b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daeb8de5039174f1baf4c72dbda3b0ee') in 0.048469 seconds 
+  Import took 0.052367 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000552 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Building_Shop_Blue.tga
-  artifactKey: Guid(7ee8adf1ec09cf24b80f64423af9d756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Building_Shop_Blue.tga using Guid(7ee8adf1ec09cf24b80f64423af9d756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba73e9313643547dcf5def4ad33a4f9') in 0.011057 seconds 
-  Import took 0.013536 seconds .
+  Time since last request: 0.000164 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_ElectMast_02.FBX
+  artifactKey: Guid(6b1d5657104230b48a9830be732d5d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_ElectMast_02.FBX using Guid(6b1d5657104230b48a9830be732d5d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0936970dcbed0170b889af07efe0feec') in 0.055630 seconds 
+  Import took 0.059719 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Trim_Beams.bmp
-  artifactKey: Guid(7842673158cca2b48b743d648356b0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Trim_Beams.bmp using Guid(7842673158cca2b48b743d648356b0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59827be951e529fcc574039421af646f') in 0.012088 seconds 
-  Import took 0.017377 seconds .
+  Time since last request: 0.000142 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Fence_01.FBX
+  artifactKey: Guid(c8b42a1d92744d145a91a1dd8d90feab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Fence_01.FBX using Guid(c8b42a1d92744d145a91a1dd8d90feab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287257f29c81063f6d0ea45d1462834b') in 0.020429 seconds 
+  Import took 0.023238 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000666 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Veg_WideLeaf.tga
-  artifactKey: Guid(6c6fbadf5712dc541bbd031a3fc5d10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Veg_WideLeaf.tga using Guid(6c6fbadf5712dc541bbd031a3fc5d10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecb8218c5db084d9eb10f3a1bf03490') in 0.019791 seconds 
-  Import took 0.027707 seconds .
+  Time since last request: 0.000148 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_BarbWire_01.FBX
+  artifactKey: Guid(c374a5c88a607ba448933ae2ebfc116d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_BarbWire_01.FBX using Guid(c374a5c88a607ba448933ae2ebfc116d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c873bea3c3a5d3cc8bbf5903697b26') in 0.029542 seconds 
+  Import took 0.032580 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Trim_Pavements_2_n.bmp
-  artifactKey: Guid(b52c37ac709383145b67ef5957c44f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Trim_Pavements_2_n.bmp using Guid(b52c37ac709383145b67ef5957c44f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e054228b401910e2281f2cb7b081db') in 0.013211 seconds 
-  Import took 0.015736 seconds .
+  Time since last request: 0.000159 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Ladder_01.FBX
+  artifactKey: Guid(38461e364ac8cec4b8d2aacadc34c202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Ladder_01.FBX using Guid(38461e364ac8cec4b8d2aacadc34c202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dab33bd39a103ef659acaaf10d42789') in 0.029905 seconds 
+  Import took 0.032236 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Car_3.bmp
-  artifactKey: Guid(d719a9b17856e384794770c2b93ffc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Car_3.bmp using Guid(d719a9b17856e384794770c2b93ffc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2b4f78697e2de5bd928400bee4c2ba') in 0.026750 seconds 
-  Import took 0.029367 seconds .
+  Time since last request: 0.000156 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Can_01.FBX
+  artifactKey: Guid(1792b6ff435416945aa13b6a78f92e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Can_01.FBX using Guid(1792b6ff435416945aa13b6a78f92e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabfb43f8a7a7156db205ea98b6d0580') in 0.029421 seconds 
+  Import took 0.032473 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/T_Wood_01_h.bmp
-  artifactKey: Guid(7a52013d89eec614d80f3816ff4ee9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/T_Wood_01_h.bmp using Guid(7a52013d89eec614d80f3816ff4ee9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f799316db6272595163f8be208d6616') in 0.014928 seconds 
-  Import took 0.023305 seconds .
+  Time since last request: 0.000161 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Barrier_01.FBX
+  artifactKey: Guid(dccc9699a44672c4486711230a79791a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Barrier_01.FBX using Guid(dccc9699a44672c4486711230a79791a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b25c48f288f60f96c4a500ac54ffc91') in 0.026492 seconds 
+  Import took 0.030653 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Brick.bmp
-  artifactKey: Guid(64169897d8ec77c408b50a5cf51bd134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Brick.bmp using Guid(64169897d8ec77c408b50a5cf51bd134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb409842f81de66038bff1a044ccd0ec') in 0.028507 seconds 
-  Import took 0.032058 seconds .
+  Time since last request: 0.000160 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Scaf_03.FBX
+  artifactKey: Guid(31d564cab4d80b44aafdcf60b96391b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Scaf_03.FBX using Guid(31d564cab4d80b44aafdcf60b96391b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aecad006b1f09b0fb62cde141119614') in 0.034483 seconds 
+  Import took 0.037568 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Flag_Gate.tga
-  artifactKey: Guid(d21d49e1f49687e4d9f6c044ebfd804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Flag_Gate.tga using Guid(d21d49e1f49687e4d9f6c044ebfd804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011126c0daccfe294b9aa426fcecb671') in 0.009409 seconds 
-  Import took 0.011961 seconds .
+  Time since last request: 0.000154 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Gate_01.FBX
+  artifactKey: Guid(56f567ee37e1e8d4aa576eb6ccce093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Gate_01.FBX using Guid(56f567ee37e1e8d4aa576eb6ccce093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f1c73e76635e18b5646256c303bf8e') in 0.021298 seconds 
+  Import took 0.024925 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/Apocalyptic_World/Art
-  artifactKey: Guid(8cbfd8269dc74a842b27187d837b18d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art using Guid(8cbfd8269dc74a842b27187d837b18d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ad0f45a9d31abd46744e6b70d1f78c') in 0.005140 seconds 
-  Import took 0.007700 seconds .
+  Time since last request: 0.000173 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Sandbag_01.FBX
+  artifactKey: Guid(e98efc286bd1572408804ef933ae1151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Sandbag_01.FBX using Guid(e98efc286bd1572408804ef933ae1151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec86a75eab26c5d6dda8c01e92b8613c') in 0.031768 seconds 
+  Import took 0.035507 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Veg_Ground_1.tga
-  artifactKey: Guid(29ee0317ff4db6448a9726049a9f4968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Veg_Ground_1.tga using Guid(29ee0317ff4db6448a9726049a9f4968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59fb625b5ee443c8f7a7e13d6f78e20') in 0.013012 seconds 
-  Import took 0.016607 seconds .
+  Time since last request: 0.000154 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Sandbag_03.FBX
+  artifactKey: Guid(3423e29a37aed2c41aca867857d54bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Sandbag_03.FBX using Guid(3423e29a37aed2c41aca867857d54bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b436a69b5e8993ca9c0f47870785fba') in 0.033607 seconds 
+  Import took 0.035983 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Cliff_03_n.bmp
-  artifactKey: Guid(9275014f1a4c62f43924ec6c85091796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Cliff_03_n.bmp using Guid(9275014f1a4c62f43924ec6c85091796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84be1ac6a5fa62821ede168b28a50d77') in 0.026830 seconds 
-  Import took 0.029373 seconds .
+  Time since last request: 0.000171 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Dumpster_02.FBX
+  artifactKey: Guid(fdc75c5ac5bc55845a055c1dfc6ace16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Dumpster_02.FBX using Guid(fdc75c5ac5bc55845a055c1dfc6ace16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b175116d555215e832dcb841950dda9a') in 0.040785 seconds 
+  Import took 0.044760 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/palmleaf.tga
-  artifactKey: Guid(d95a6af991c5a4a41adb01cd08e4fbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/palmleaf.tga using Guid(d95a6af991c5a4a41adb01cd08e4fbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ea3e14deb009787a8c0e0b61816533') in 0.022891 seconds 
-  Import took 0.025509 seconds .
+  Time since last request: 0.000147 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Hut_01.FBX
+  artifactKey: Guid(0b0d98e4e3094964999d0ebf4058f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Hut_01.FBX using Guid(0b0d98e4e3094964999d0ebf4058f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825fdac0f6af5b84d45b1232913c9680') in 0.031400 seconds 
+  Import took 0.035576 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Prop_Bin.bmp
-  artifactKey: Guid(10e70955edcd32f45aba15734f9492cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Prop_Bin.bmp using Guid(10e70955edcd32f45aba15734f9492cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f77804b3396291b95bff12e69f4b13c') in 0.029563 seconds 
-  Import took 0.032213 seconds .
+  Time since last request: 0.000156 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Fence_02_Broken.FBX
+  artifactKey: Guid(513e099adf547bc49b0b043dc72c16be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Fence_02_Broken.FBX using Guid(513e099adf547bc49b0b043dc72c16be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923cdcde6f3c4d6f3a2e5d7423fe56aa') in 0.020280 seconds 
+  Import took 0.022614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Dumpster_01.FBX
+  artifactKey: Guid(2ddec0bc8cb5e6c4caf2b617cf90af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Dumpster_01.FBX using Guid(2ddec0bc8cb5e6c4caf2b617cf90af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cb617987e41ff1ef93809410922215') in 0.039194 seconds 
+  Import took 0.042148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_ElectMast_01.FBX
+  artifactKey: Guid(7364a697c50f8254a86ecbf09a33dff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_ElectMast_01.FBX using Guid(7364a697c50f8254a86ecbf09a33dff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db36e6bb4066e78ad2607e61c43a70a7') in 0.041377 seconds 
+  Import took 0.045059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.865980 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Cars/SM_Vehicle_Car_01.FBX
+  artifactKey: Guid(88f330b09d3f8ef43aaffd14a9898c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Cars/SM_Vehicle_Car_01.FBX using Guid(88f330b09d3f8ef43aaffd14a9898c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ae51edbc1caf58741776e51350ef99') in 0.045219 seconds 
+  Import took 0.048672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Cars/SM_Vehicle_Car_02.FBX
+  artifactKey: Guid(b168cfaadefe77f4d96b94899752e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Cars/SM_Vehicle_Car_02.FBX using Guid(b168cfaadefe77f4d96b94899752e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad06ef85d61836956bf5200b9b4cc1b') in 0.045645 seconds 
+  Import took 0.049123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Cars/SM_Vehicle_Car_03.FBX
+  artifactKey: Guid(0b83a1c053bca3b4093e894528911cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Cars/SM_Vehicle_Car_03.FBX using Guid(0b83a1c053bca3b4093e894528911cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1096851dd8980db5e4ac2108b3fca45') in 0.047256 seconds 
+  Import took 0.050032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1272.872541 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh
+  artifactKey: Guid(73284bb48db69aa499f858f2fb9e615c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh using Guid(73284bb48db69aa499f858f2fb9e615c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87e86ab79e5a1cb9917c2fa716c8626') in 0.005969 seconds 
+  Import took 0.009366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.511604 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Roads
+  artifactKey: Guid(16c228f46e8421849a52ac3d0dacfacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Roads using Guid(16c228f46e8421849a52ac3d0dacfacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1378393a1db74269868dfadbdbc87b7') in 0.004961 seconds 
+  Import took 0.007660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1174.493209 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props
+  artifactKey: Guid(9f955f4ec469bf444921c08888ba0369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props using Guid(9f955f4ec469bf444921c08888ba0369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642c738c4321941b3578aa73041abae7') in 0.006072 seconds 
+  Import took 0.009326 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Domain Reload Profiling:
+	ReloadAssembly (825ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (664ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1840 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.4 MB.
+System memory in use after: 170.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2340.
+Total: 2.623900 ms (FindLiveObjects: 0.152200 ms CreateObjectMapping: 0.044900 ms MarkObjects: 2.412700 ms  DeleteObjects: 0.013200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41.815502 seconds.
+  path: Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Hut_01.FBX
+  artifactKey: Guid(0b0d98e4e3094964999d0ebf4058f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Art/StaticMesh/Props/SM_Props_Hut_01.FBX using Guid(0b0d98e4e3094964999d0ebf4058f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd208e237bf93cc903d6cc8e24ddf82') in 0.079867 seconds 
+  Import took 0.085254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.591410 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Roads
+  artifactKey: Guid(a9658c657e1f2e24492af6e345cce0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Roads using Guid(a9658c657e1f2e24492af6e345cce0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5ff3b0a6b7bbb688c056bc6f26d9a8') in 0.002504 seconds 
+  Import took 0.006346 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003700 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (655ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1840 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.4 MB.
+System memory in use after: 170.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 2.681100 ms (FindLiveObjects: 0.149700 ms CreateObjectMapping: 0.040600 ms MarkObjects: 2.477800 ms  DeleteObjects: 0.012000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 425.424374 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_Groups/Building_Example_02.prefab
+  artifactKey: Guid(4eda6303f390e454d8f2bdfd10cdb9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_Groups/Building_Example_02.prefab using Guid(4eda6303f390e454d8f2bdfd10cdb9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cee0f616b0378cde6155b6e3346fb00') in 0.072838 seconds 
+  Import took 0.077659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.955754 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_Groups/Building_Example_03.prefab
+  artifactKey: Guid(2671265be0a8fee409dc3476f9663217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_Groups/Building_Example_03.prefab using Guid(2671265be0a8fee409dc3476f9663217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e977010afabe19c762392a283be1c077') in 0.027731 seconds 
+  Import took 0.032206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.579993 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_Groups/Fence_Group_01.prefab
+  artifactKey: Guid(2075a46ba0ead304990d17c6f61f7542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_Groups/Fence_Group_01.prefab using Guid(2075a46ba0ead304990d17c6f61f7542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f971a2c860e1be678c440b01ebd5bd') in 0.025791 seconds 
+  Import took 0.030673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 385.799605 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_Groups/Building_Example_01.prefab
+  artifactKey: Guid(0a60e8c54bdb64c4aa8b8deb916e6879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_Groups/Building_Example_01.prefab using Guid(0a60e8c54bdb64c4aa8b8deb916e6879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af60d72bb587fba94782f4cd0db4a26') in 0.037209 seconds 
+  Import took 0.043549 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Domain Reload Profiling:
+	ReloadAssembly (803ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (652ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1840 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.5 MB.
+System memory in use after: 170.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2346.
+Total: 2.607300 ms (FindLiveObjects: 0.134700 ms CreateObjectMapping: 0.039500 ms MarkObjects: 2.420100 ms  DeleteObjects: 0.012100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 260.051390 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_Groups/Fence_Group_01.prefab
+  artifactKey: Guid(2075a46ba0ead304990d17c6f61f7542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_Groups/Fence_Group_01.prefab using Guid(2075a46ba0ead304990d17c6f61f7542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33ddc193caead885b46133f7b8e41f1') in 0.058583 seconds 
+  Import took 0.062682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.181768 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_BanannaPalm_01.prefab
+  artifactKey: Guid(3d4bbcfedf118a4438f1375b83dc8aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_BanannaPalm_01.prefab using Guid(3d4bbcfedf118a4438f1375b83dc8aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3342e4bf2220d6f8fd6e01bc4d48534') in 0.013608 seconds 
+  Import took 0.016752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Bush_01.prefab
+  artifactKey: Guid(b4af8a0b3db65964b83f40cb45bb6029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Bush_01.prefab using Guid(b4af8a0b3db65964b83f40cb45bb6029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9066f0414350fdf31a29544be8d91d') in 0.013326 seconds 
+  Import took 0.015905 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000162 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Gound_Mud.bmp
-  artifactKey: Guid(ffa5b9c0a7337984bb2775f9602c60db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Gound_Mud.bmp using Guid(ffa5b9c0a7337984bb2775f9602c60db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571aa4f52c4580f7cbc9168e5df79405') in 0.024686 seconds 
-  Import took 0.027262 seconds .
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Plant_Grass_02.prefab
+  artifactKey: Guid(462c61c0ca8034643a47ce90bce4e8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Plant_Grass_02.prefab using Guid(462c61c0ca8034643a47ce90bce4e8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99413773ec3e6ed44340add02753cb2') in 0.011265 seconds 
+  Import took 0.014265 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000487 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Grass.bmp
-  artifactKey: Guid(22d821ea6e1ccc748b6a407956446276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Grass.bmp using Guid(22d821ea6e1ccc748b6a407956446276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c760479160be4ff2cd3cbb7a7a5f3e7c') in 0.034739 seconds 
-  Import took 0.037328 seconds .
+  Time since last request: 0.000161 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Ground.prefab
+  artifactKey: Guid(28d0227a84676544ba3cc2b107146035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Ground.prefab using Guid(28d0227a84676544ba3cc2b107146035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430e29dc2cb46e9e87abf00e3aa89a68') in 0.012250 seconds 
+  Import took 0.015079 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Trim_Beams_n.bmp
-  artifactKey: Guid(39f017251b71dfe449aa3c63899831f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Trim_Beams_n.bmp using Guid(39f017251b71dfe449aa3c63899831f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7710a4c5c80551da53bf9e0ad2e0ea4c') in 0.035382 seconds 
-  Import took 0.037937 seconds .
+  Time since last request: 0.000133 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Ivy_01.prefab
+  artifactKey: Guid(c4afa63bf453491438a1ada8b4efc0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Ivy_01.prefab using Guid(c4afa63bf453491438a1ada8b4efc0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac42b2b23fefc905de05eabb8d976002') in 0.011878 seconds 
+  Import took 0.014400 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Veg_Stingy.tga
-  artifactKey: Guid(24e43938c0d8ad94abb2b4f40df542db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Veg_Stingy.tga using Guid(24e43938c0d8ad94abb2b4f40df542db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afb94eb34c8bcd23c9ef2250d7ff7d1') in 0.022910 seconds 
-  Import took 0.025669 seconds .
+  Time since last request: 0.000173 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Tree_Fir_01.prefab
+  artifactKey: Guid(cdb1938554c8a224fb6e899fad57576e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Tree_Fir_01.prefab using Guid(cdb1938554c8a224fb6e899fad57576e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ad1cca1547bbe7eefacf6ac881d89b') in 0.014744 seconds 
+  Import took 0.018118 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Trim_Pavements.bmp
-  artifactKey: Guid(c4e50b431cc1b0f4e9e90a640d2a3c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Trim_Pavements.bmp using Guid(c4e50b431cc1b0f4e9e90a640d2a3c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475f23d530c59e9b9c504bc528f218a2') in 0.025348 seconds 
-  Import took 0.027876 seconds .
+  Time since last request: 0.000129 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Fern_01.prefab
+  artifactKey: Guid(2ebab47117600834e8aa7ad2ffe56c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Fern_01.prefab using Guid(2ebab47117600834e8aa7ad2ffe56c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca13081112b53f747ad09bf8e4f1ef3') in 0.013127 seconds 
+  Import took 0.016088 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Glass_n.bmp
-  artifactKey: Guid(786eec35d1f067e499bb9363948d8a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Glass_n.bmp using Guid(786eec35d1f067e499bb9363948d8a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ada3f5cdd0ed95e028296d44fceba0') in 0.010863 seconds 
-  Import took 0.013393 seconds .
+  Time since last request: 0.000178 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Tree_01.prefab
+  artifactKey: Guid(072622afbbe560e4e8474af2f82b7bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Tree_01.prefab using Guid(072622afbbe560e4e8474af2f82b7bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230cc1462639445ca7f7a0ebb4d50600') in 0.015280 seconds 
+  Import took 0.017708 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Lambo.bmp
-  artifactKey: Guid(b8562059c7d1af64d90d6a0be401b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Lambo.bmp using Guid(b8562059c7d1af64d90d6a0be401b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7641315284824881947415d2800c59') in 0.014670 seconds 
-  Import took 0.017250 seconds .
+  Time since last request: 0.000149 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Tree_Fir_03_Broken.prefab
+  artifactKey: Guid(308d6d55718ee7c4ea381978ef915d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Tree_Fir_03_Broken.prefab using Guid(308d6d55718ee7c4ea381978ef915d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbb85c7be11754146b49cbf1c4afbe6') in 0.013872 seconds 
+  Import took 0.017028 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/PalmTrunk.bmp
-  artifactKey: Guid(1fac517c61a731149910ae9235ab42a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/PalmTrunk.bmp using Guid(1fac517c61a731149910ae9235ab42a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5709dea0b8a04aed298e61349feaff') in 0.014589 seconds 
-  Import took 0.017107 seconds .
+  Time since last request: 0.000140 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Plant_GrassTall_01.prefab
+  artifactKey: Guid(028664f284928f046be1b7669af2e80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Plant_GrassTall_01.prefab using Guid(028664f284928f046be1b7669af2e80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8df612066c22b58f99aef7569591b7d') in 0.011958 seconds 
+  Import took 0.014667 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Veg_WideLeaf_n.bmp
-  artifactKey: Guid(9b5671ea2fd8015488e863037ab3c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Veg_WideLeaf_n.bmp using Guid(9b5671ea2fd8015488e863037ab3c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322b1b8ce4ab73e9774461c5b2bce1e9') in 0.022164 seconds 
-  Import took 0.024671 seconds .
+  Time since last request: 0.000161 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Plant_01.prefab
+  artifactKey: Guid(6bd39262fa4fd1e46a13f31149333bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Plant_01.prefab using Guid(6bd39262fa4fd1e46a13f31149333bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8939a6e60fce1462e4f448dd04356c') in 0.012496 seconds 
+  Import took 0.015405 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000677 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Grass_n.bmp
-  artifactKey: Guid(28cfec8e9abf5064d9a9bc9de6a1da4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Grass_n.bmp using Guid(28cfec8e9abf5064d9a9bc9de6a1da4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44704742284798c1f157300aba823299') in 0.016779 seconds 
-  Import took 0.020534 seconds .
+  Time since last request: 0.000212 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Grass_01.prefab
+  artifactKey: Guid(1d22095fbcb85c34e8ffb317d021efec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Grass_01.prefab using Guid(1d22095fbcb85c34e8ffb317d021efec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e1e02a53c1a3f98fc86574be0073fd') in 0.010922 seconds 
+  Import took 0.014558 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/prop_tree_bark_01.bmp
-  artifactKey: Guid(137953ae7ac603049a56884b7f791cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/prop_tree_bark_01.bmp using Guid(137953ae7ac603049a56884b7f791cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e425c47e7f04c8c300f7bc3ade8466d') in 0.010193 seconds 
-  Import took 0.012671 seconds .
+  Time since last request: 0.000171 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Tree_Fir_02.prefab
+  artifactKey: Guid(ac9b65959fd870f4e80563fa3ea921ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Tree_Fir_02.prefab using Guid(ac9b65959fd870f4e80563fa3ea921ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cdf9784e7c45ebb6d63c987c6d1614') in 0.013463 seconds 
+  Import took 0.017074 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/prop_tree_bark_01_n.bmp
-  artifactKey: Guid(28600a1cd7221bf42bd7881d0b0ba68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/prop_tree_bark_01_n.bmp using Guid(28600a1cd7221bf42bd7881d0b0ba68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b92f0362f303abc01cb016b43271ad') in 0.012115 seconds 
-  Import took 0.015051 seconds .
+  Time since last request: 0.000157 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Plant_Grass_03.prefab
+  artifactKey: Guid(77672e5dd3b930c4b89a6dc74b0bab00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Plant_Grass_03.prefab using Guid(77672e5dd3b930c4b89a6dc74b0bab00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db7862da8e868f3f05d7c767f18ad5a') in 0.013485 seconds 
+  Import took 0.017058 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000565 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Flag_America.tga
-  artifactKey: Guid(5cf5be8f91b2daf468a73c81e13000b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Flag_America.tga using Guid(5cf5be8f91b2daf468a73c81e13000b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af9b768eda4b417a9c91f304346048c') in 0.017678 seconds 
-  Import took 0.020953 seconds .
+  Time since last request: 0.000170 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Ivy_02.prefab
+  artifactKey: Guid(c0311b6f507a6ee41806ac45ed4fd988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Veg/SM_Veg_Ivy_02.prefab using Guid(c0311b6f507a6ee41806ac45ed4fd988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b0749da3476f731de75ffe637adc71') in 0.011952 seconds 
+  Import took 0.014712 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003945 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.799 seconds
+Domain Reload Profiling:
+	ReloadAssembly (800ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (655ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1840 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.5 MB.
+System memory in use after: 170.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2349.
+Total: 2.577500 ms (FindLiveObjects: 0.131600 ms CreateObjectMapping: 0.036600 ms MarkObjects: 2.396300 ms  DeleteObjects: 0.012100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1269.975615 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_Groups/Wall_Group_01.prefab
+  artifactKey: Guid(35b9319ea0743444aab865ac80f59946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_Groups/Wall_Group_01.prefab using Guid(35b9319ea0743444aab865ac80f59946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7244966a7ad5c14383de919e9af412') in 0.062438 seconds 
+  Import took 0.066838 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Glass_01.tga
-  artifactKey: Guid(1a350a1c4c5386d4db42895287e3ca85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Glass_01.tga using Guid(1a350a1c4c5386d4db42895287e3ca85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7bd56b6487bed42f9e6d54c266043b') in 0.009225 seconds 
-  Import took 0.011708 seconds .
+  Time since last request: 642.087439 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Pillar_01.prefab
+  artifactKey: Guid(a5f1410331280974195744a64d2dd48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Pillar_01.prefab using Guid(a5f1410331280974195744a64d2dd48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd098cff9aa83345a27a87338f28d3d49') in 0.027019 seconds 
+  Import took 0.030719 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Cliff_01.bmp
-  artifactKey: Guid(e810f74184ed91f4f81e6a1c14791ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Cliff_01.bmp using Guid(e810f74184ed91f4f81e6a1c14791ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4b7accd8b58b83c0faee7fbf9c54ab') in 0.015645 seconds 
-  Import took 0.019212 seconds .
+  Time since last request: 0.000148 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Stairs_2.prefab
+  artifactKey: Guid(a2d6fa5a43090a042935d56b9ac60f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Stairs_2.prefab using Guid(a2d6fa5a43090a042935d56b9ac60f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d22d9e7e073d63d81da6cb8c791b77') in 0.026358 seconds 
+  Import took 0.029902 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Grass_Plant.tga
-  artifactKey: Guid(9fe36a921b5b48548a62f8423f684e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Grass_Plant.tga using Guid(9fe36a921b5b48548a62f8423f684e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7330df378a84799b4169811cc288c4f6') in 0.012586 seconds 
-  Import took 0.015306 seconds .
+  Time since last request: 0.000155 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Wall_03_Broken.prefab
+  artifactKey: Guid(bc6abaaa002fb0b4593bbc3d7acb3849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Wall_03_Broken.prefab using Guid(bc6abaaa002fb0b4593bbc3d7acb3849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9126434f802848b4d3438643d9f5b2a9') in 0.019738 seconds 
+  Import took 0.023471 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Brick_n.bmp
-  artifactKey: Guid(378861c1dc56c144a9a430b1c536f50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Brick_n.bmp using Guid(378861c1dc56c144a9a430b1c536f50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd560283a55a6436eaf0424c9c0921890') in 0.014794 seconds 
-  Import took 0.017456 seconds .
+  Time since last request: 0.000193 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Pillar_02_Broken.prefab
+  artifactKey: Guid(6b6002d5de3e0d04d8659df3c8811426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Pillar_02_Broken.prefab using Guid(6b6002d5de3e0d04d8659df3c8811426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854623a42b808ac8131c3fd5c54174ea') in 0.024068 seconds 
+  Import took 0.027957 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Gound_Mud_n.bmp
-  artifactKey: Guid(a7902a53a8c693d44ab2523c1663d887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Gound_Mud_n.bmp using Guid(a7902a53a8c693d44ab2523c1663d887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a814dd7cf4074ab04fd7c67568b6544a') in 0.010755 seconds 
-  Import took 0.013241 seconds .
+  Time since last request: 0.000152 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Stairs_1.prefab
+  artifactKey: Guid(b5341d48f10282b46b44bfd11cc50c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Stairs_1.prefab using Guid(b5341d48f10282b46b44bfd11cc50c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866142e836b389dd43158d89a84a2c10') in 0.027360 seconds 
+  Import took 0.030759 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/PalmTrunk_n.bmp
-  artifactKey: Guid(dfeeb309192f67243804aa8a721bcffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/PalmTrunk_n.bmp using Guid(dfeeb309192f67243804aa8a721bcffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598aac23f8e28a85e50a9a565d04fc7d') in 0.030540 seconds 
-  Import took 0.033211 seconds .
+  Time since last request: 0.000147 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Pillar_02.prefab
+  artifactKey: Guid(d5584b2f12c16e2499d65c29628f3dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Pillar_02.prefab using Guid(d5584b2f12c16e2499d65c29628f3dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fbd06772d21e607b4e1765fe93efcb') in 0.014434 seconds 
+  Import took 0.017020 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Veg_Tree Bush_1.bmp
-  artifactKey: Guid(fb588b9d2915ab94b8c34138e402e753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Veg_Tree Bush_1.bmp using Guid(fb588b9d2915ab94b8c34138e402e753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fe2bd34c5c7333868dc82e7b28c51f') in 0.014687 seconds 
-  Import took 0.017223 seconds .
+  Time since last request: 0.000159 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Wall_01.prefab
+  artifactKey: Guid(d6a12d42e3946954da8d8231b25a673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Wall_01.prefab using Guid(d6a12d42e3946954da8d8231b25a673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca51ccc2f8d2146ef072b4a5fc204036') in 0.019622 seconds 
+  Import took 0.023807 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Window_2_n.bmp
-  artifactKey: Guid(858e56b7bc62afc40a8f417920b7ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Window_2_n.bmp using Guid(858e56b7bc62afc40a8f417920b7ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2325cfd4a6b952412fe9a76c47d9a20') in 0.013860 seconds 
-  Import took 0.016546 seconds .
+  Time since last request: 0.000143 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Wall_03.prefab
+  artifactKey: Guid(0354b6a2f4a56fb4e9cf9c5ebcccda81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Wall_03.prefab using Guid(0354b6a2f4a56fb4e9cf9c5ebcccda81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7b3b02152681f70fa93e0ce562a13b') in 0.023018 seconds 
+  Import took 0.026599 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Window_3.bmp
-  artifactKey: Guid(cc1e20f9979e0754cac58fa254a08308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Window_3.bmp using Guid(cc1e20f9979e0754cac58fa254a08308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc108ea8e701b1ba75e0f59487a55751') in 0.012916 seconds 
-  Import took 0.015455 seconds .
+  Time since last request: 0.000143 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Wall_02.prefab
+  artifactKey: Guid(99b03a6d6ce28404b87078e57c640af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Wall_02.prefab using Guid(99b03a6d6ce28404b87078e57c640af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a32dccc4b369e62cd2b3844ca39c36') in 0.014185 seconds 
+  Import took 0.017808 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Flag_Freedom.tga
-  artifactKey: Guid(a4c48f4e0f57fd84cba9e2fe75c2461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Flag_Freedom.tga using Guid(a4c48f4e0f57fd84cba9e2fe75c2461b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8892c5b920ff6176f62523d8d40c739') in 0.015449 seconds 
-  Import took 0.021983 seconds .
+  Time since last request: 0.000168 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Stairs_3.prefab
+  artifactKey: Guid(f76d05d653dc64849a56b8f532480543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Structures/SM_Structure_Stairs_3.prefab using Guid(f76d05d653dc64849a56b8f532480543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4950b6166575e6066cdcf77d234a9996') in 0.019868 seconds 
+  Import took 0.023444 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000614 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/T_Wood_01.bmp
-  artifactKey: Guid(476df73c87330344691c49f0b08ed571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/T_Wood_01.bmp using Guid(476df73c87330344691c49f0b08ed571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c9983972cace1be6d4c2e629987b6a') in 0.030090 seconds 
-  Import took 0.038139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/T_Wood_01_n.bmp
-  artifactKey: Guid(30d83fc67402a1c4c9ef808900f02e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/T_Wood_01_n.bmp using Guid(30d83fc67402a1c4c9ef808900f02e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5b329572e1dd986c9f484ec233e194') in 0.026746 seconds 
-  Import took 0.029291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Veg_Tree Bush_1_a.bmp
-  artifactKey: Guid(daf7f056148dea441a8318382af95a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Veg_Tree Bush_1_a.bmp using Guid(daf7f056148dea441a8318382af95a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f2ab698c89d3244e4f4ef295510c33') in 0.018473 seconds 
-  Import took 0.021020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Window_3_n.bmp
-  artifactKey: Guid(028df79fa01675a428aea64a4fb3dc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Window_3_n.bmp using Guid(028df79fa01675a428aea64a4fb3dc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61505bc1218c8daf60e3f97d420e0bb3') in 0.027775 seconds 
-  Import took 0.030294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Window_5.bmp
-  artifactKey: Guid(ce38992284d0a25418e5944a0c912bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Window_5.bmp using Guid(ce38992284d0a25418e5944a0c912bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc02da7d0b1a6e05c74d966ef65672b') in 0.023851 seconds 
-  Import took 0.026493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Horse_n.bmp
-  artifactKey: Guid(3a44225f9b4a7bf4f9553f241b039124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Horse_n.bmp using Guid(3a44225f9b4a7bf4f9553f241b039124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e59e587b0444692517f766a47321456') in 0.022676 seconds 
-  Import took 0.025209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/City_Map_01.bmp
-  artifactKey: Guid(dcf1784921397c64e8b7419a1623a7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/City_Map_01.bmp using Guid(dcf1784921397c64e8b7419a1623a7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fb4cf50ae9639cf39ed25ae35aa1d4') in 0.026372 seconds 
-  Import took 0.028915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Cliff_04_n.bmp
-  artifactKey: Guid(1b663838049973f49851128331324fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Cliff_04_n.bmp using Guid(1b663838049973f49851128331324fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b00c7aad8d360135485457bdef4938e') in 0.012974 seconds 
-  Import took 0.015468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Grass_Tall.tga
-  artifactKey: Guid(c479179954492ee43ba2c5caae912d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Grass_Tall.tga using Guid(c479179954492ee43ba2c5caae912d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bbb703d34ea861cbbc08bc8eb17ff2') in 0.012432 seconds 
+  Time since last request: 125.359946 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/Prop_Flag_America.prefab
+  artifactKey: Guid(7f45d4f8c946ca045b1f9204638dddab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/Prop_Flag_America.prefab using Guid(7f45d4f8c946ca045b1f9204638dddab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33b60334546d37f59f1bd0e7538372b') in 0.012217 seconds 
   Import took 0.014929 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Flag_LockDown.tga
-  artifactKey: Guid(d35376172361af441ae5ceaae8e8380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Flag_LockDown.tga using Guid(d35376172361af441ae5ceaae8e8380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21eff0cb7bbbb7cd045d8e5e611435d') in 0.013126 seconds 
-  Import took 0.015650 seconds .
+  Time since last request: 0.000159 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_04.prefab
+  artifactKey: Guid(6db58eed58ae2454bbda8e29815ce8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_04.prefab using Guid(6db58eed58ae2454bbda8e29815ce8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3214052985c6f42712f6985aa01a7f') in 0.012734 seconds 
+  Import took 0.015089 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/BarbWire.tga
-  artifactKey: Guid(a25d4cc5296980247ae7fd3e23f8c656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/BarbWire.tga using Guid(a25d4cc5296980247ae7fd3e23f8c656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67d5b8734ac525dfca2008cf2966f94') in 0.010852 seconds 
-  Import took 0.013378 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_03.prefab
+  artifactKey: Guid(a1e49bd70738e934b9b1a52634efc2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_03.prefab using Guid(a1e49bd70738e934b9b1a52634efc2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cde98c18ddc83f4397438a47e30cbda') in 0.011286 seconds 
+  Import took 0.014622 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Tree Leaf.tga
-  artifactKey: Guid(fb72b752cebcc114c9ca937886fbb707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Tree Leaf.tga using Guid(fb72b752cebcc114c9ca937886fbb707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1468dd000f7b21ecb5a1767f490bf4f') in 0.011266 seconds 
-  Import took 0.013824 seconds .
+  Time since last request: 0.000139 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Canopy_02.prefab
+  artifactKey: Guid(97c701167361d82469b1858c72bc7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Canopy_02.prefab using Guid(97c701167361d82469b1858c72bc7663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a558597f8ecd82370a2bb00e07d256') in 0.010940 seconds 
+  Import took 0.013401 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Rock_01_n.bmp
-  artifactKey: Guid(3b434385c3e072a46bd525a25de72310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Rock_01_n.bmp using Guid(3b434385c3e072a46bd525a25de72310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5e083179db1f740912095d7e8e82ea') in 0.012467 seconds 
-  Import took 0.015060 seconds .
+  Time since last request: 0.000120 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Canopy_01.prefab
+  artifactKey: Guid(2479c1819f8f3f041b1dab4e1ae155ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Canopy_01.prefab using Guid(2479c1819f8f3f041b1dab4e1ae155ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad0e5497055507c8b6fe97f31d6252c') in 0.020010 seconds 
+  Import took 0.023795 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Horse.bmp
-  artifactKey: Guid(959a97a4f89e52642ab380f9ffcad3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Horse.bmp using Guid(959a97a4f89e52642ab380f9ffcad3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776cbc3e24896c143e7c0a53d7faabde') in 0.032128 seconds 
-  Import took 0.034785 seconds .
+  Time since last request: 0.000152 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_03.prefab
+  artifactKey: Guid(acf86937ec693ad41b72fcd4e2b58302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_03.prefab using Guid(acf86937ec693ad41b72fcd4e2b58302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899641155616eea8be7b369b832d1107') in 0.012502 seconds 
+  Import took 0.015589 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Grass.tga
-  artifactKey: Guid(bee696adea1b8a34ebe627aa007bf0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Grass.tga using Guid(bee696adea1b8a34ebe627aa007bf0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cfc2673dc291846d9619097fad22d9') in 0.023351 seconds 
-  Import took 0.025910 seconds .
+  Time since last request: 0.000159 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_01.prefab
+  artifactKey: Guid(b308c44651819f144aa11897b7392f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_01.prefab using Guid(b308c44651819f144aa11897b7392f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b29f676d8096c42bda677e92dd211b3') in 0.016356 seconds 
+  Import took 0.019545 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Sandbag_01_n.bmp
-  artifactKey: Guid(81fc4c4b561343345b96032a7c0a3dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Sandbag_01_n.bmp using Guid(81fc4c4b561343345b96032a7c0a3dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fb99cf4d9aea1740a38c92b5fd738f') in 0.036711 seconds 
-  Import took 0.045947 seconds .
+  Time since last request: 0.000139 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_05.prefab
+  artifactKey: Guid(1d2988aaaa720f943a0fab73d74cb625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_05.prefab using Guid(1d2988aaaa720f943a0fab73d74cb625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bb6d23de72f6d7a84a34cc4dae814b') in 0.028735 seconds 
+  Import took 0.031080 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/Apocalyptic_World/Art/Textures/Sandbag_01.bmp
-  artifactKey: Guid(43139ecbf7f0582408e9e3784164131c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apocalyptic_World/Art/Textures/Sandbag_01.bmp using Guid(43139ecbf7f0582408e9e3784164131c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed04c27359a4cde03b4617628ab0012') in 0.034870 seconds 
-  Import took 0.041689 seconds .
+  Time since last request: 0.000152 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Canopy_03.prefab
+  artifactKey: Guid(c7cd399f0c4c88042b9330b169782a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Canopy_03.prefab using Guid(c7cd399f0c4c88042b9330b169782a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3776eaa4efe6a968044598696fd88bfc') in 0.013491 seconds 
+  Import took 0.016151 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_02.prefab
+  artifactKey: Guid(dda7b0b7f6506dc45948584f66b7b628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_02.prefab using Guid(dda7b0b7f6506dc45948584f66b7b628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f894bcf1136eec2aa9e8d43ffbd74c46') in 0.011108 seconds 
+  Import took 0.014220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Canopy_04.prefab
+  artifactKey: Guid(f77ae5eeb37fefb4b83bdc7aca08c0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Canopy_04.prefab using Guid(f77ae5eeb37fefb4b83bdc7aca08c0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01d2b059c0b110bdcae7b380bd84851') in 0.014024 seconds 
+  Import took 0.017521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_05.prefab
+  artifactKey: Guid(e975389a0e5767e499554144035f8d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_05.prefab using Guid(e975389a0e5767e499554144035f8d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebeabcf82c2e5123d30f26470a366cbd') in 0.011303 seconds 
+  Import took 0.014550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_04.prefab
+  artifactKey: Guid(57cff95240c8d6e4c9151f35f7865b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_04.prefab using Guid(57cff95240c8d6e4c9151f35f7865b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1596823d85d0b5fc57080feecdd71b1f') in 0.014715 seconds 
+  Import took 0.017621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_LeftTurn.prefab
+  artifactKey: Guid(2bd4649115432944c863a8e25240a830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_LeftTurn.prefab using Guid(2bd4649115432944c863a8e25240a830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297edcb3d1e996861c86c5064cc9e242') in 0.018708 seconds 
+  Import took 0.021110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_RighTurn.prefab
+  artifactKey: Guid(b202eb7914e12ea46b02b763cdf2c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_RighTurn.prefab using Guid(b202eb7914e12ea46b02b763cdf2c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df59654a3aea925a990abe9d948b1c4') in 0.015689 seconds 
+  Import took 0.018946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_06.prefab
+  artifactKey: Guid(3a7cef5c00c965448af90fe186cd2a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_06.prefab using Guid(3a7cef5c00c965448af90fe186cd2a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77a590073ff18b9a619827b4f13f121') in 0.012397 seconds 
+  Import took 0.015099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_08.prefab
+  artifactKey: Guid(79dd184656a5b4d47a32c583d232cbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_08.prefab using Guid(79dd184656a5b4d47a32c583d232cbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42e18637d9d1f1573e2038282cd5e5c') in 0.014918 seconds 
+  Import took 0.018352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_02.prefab
+  artifactKey: Guid(021916f0ee4a0f74990ef32c3c8e4e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_02.prefab using Guid(021916f0ee4a0f74990ef32c3c8e4e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd844c496f32529276ee5e5d90141fff') in 0.012143 seconds 
+  Import took 0.014977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_07.prefab
+  artifactKey: Guid(3fc82dfa6c59c2642bab33f929a422ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_07.prefab using Guid(3fc82dfa6c59c2642bab33f929a422ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688197e6a2cfbeef36ba4cf73e11f61e') in 0.012503 seconds 
+  Import took 0.015687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_01.prefab
+  artifactKey: Guid(116b372a287ab1049a7db09db5119039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_01.prefab using Guid(116b372a287ab1049a7db09db5119039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9d388259067f38d2e2ccdb6b59f8f0') in 0.011990 seconds 
+  Import took 0.014607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_DoughManic_02.prefab
+  artifactKey: Guid(8e9da47e9c38c8b45a7021dcec26a9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_DoughManic_02.prefab using Guid(8e9da47e9c38c8b45a7021dcec26a9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06929d94a77644349ef1c5ceed96d138') in 0.015175 seconds 
+  Import took 0.018593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/Prop_Flag_Freedom.prefab
+  artifactKey: Guid(f868450798a478145a4c2970b30e3a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/Prop_Flag_Freedom.prefab using Guid(f868450798a478145a4c2970b30e3a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575c252c083a24430f608df9c8a2fab0') in 0.035129 seconds 
+  Import took 0.037521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_09.prefab
+  artifactKey: Guid(8699073655b961c41a1630be2aeac675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_09.prefab using Guid(8699073655b961c41a1630be2aeac675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cba93f919f5d219b21e7245e1718fdb') in 0.011813 seconds 
+  Import took 0.014827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_07.prefab
+  artifactKey: Guid(5d6bcf235a2a4004182167b33a69c32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_07.prefab using Guid(5d6bcf235a2a4004182167b33a69c32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc208021cee16da2112143d3fa08a166') in 0.011680 seconds 
+  Import took 0.014124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_NoParking.prefab
+  artifactKey: Guid(d67c79470b6561a4bb42a298e23468b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_NoParking.prefab using Guid(d67c79470b6561a4bb42a298e23468b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcd708d40ab1dfd0a01bb0be5bdfbc4') in 0.018765 seconds 
+  Import took 0.021876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_Speed50.prefab
+  artifactKey: Guid(a6665416e315bf843b970301ea09750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_Speed50.prefab using Guid(a6665416e315bf843b970301ea09750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3366eb0cad83425408777701a1203273') in 0.018152 seconds 
+  Import took 0.021396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_06.prefab
+  artifactKey: Guid(4f4e82a371f96ea4ba30855ba5310253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Shop_Sign_06.prefab using Guid(4f4e82a371f96ea4ba30855ba5310253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a504b3ffa6bbe981c530d214834ecd3b') in 0.026116 seconds 
+  Import took 0.029702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_Stop.prefab
+  artifactKey: Guid(3d3084b39c2b1884987f8a362f2b94ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_Stop.prefab using Guid(3d3084b39c2b1884987f8a362f2b94ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4347ae96d4c8d3f90149989ede93cb') in 0.017732 seconds 
+  Import took 0.021138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_NoParking_02.prefab
+  artifactKey: Guid(217822f679425e04fb21ae70898b538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_NoParking_02.prefab using Guid(217822f679425e04fb21ae70898b538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f9de55042f57b4bc08f004deea304b') in 0.010630 seconds 
+  Import took 0.013320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/Shop_Sign_DoughManic_01.prefab
+  artifactKey: Guid(eec3bcee240ed974f9f816875357f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/Shop_Sign_DoughManic_01.prefab using Guid(eec3bcee240ed974f9f816875357f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250083dd4a137f3c8220af6e50cd7c3e') in 0.017569 seconds 
+  Import took 0.020840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/Prop_Flag_Gate.prefab
+  artifactKey: Guid(833a8a9f0e96f994cbc96d59426fd685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/Prop_Flag_Gate.prefab using Guid(833a8a9f0e96f994cbc96d59426fd685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a3589c32e46b4d5bd71ef17bbc49e1') in 0.014884 seconds 
+  Import took 0.017244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_Round.prefab
+  artifactKey: Guid(97186789f250b9c49804f0d77d253ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/SM_Props_Sign_Round.prefab using Guid(97186789f250b9c49804f0d77d253ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff95278765681c2460d0f3d30cb6cc81') in 0.013619 seconds 
+  Import took 0.016370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/Prop_Flag_Lockdown.prefab
+  artifactKey: Guid(244f59cc9dad8fc41a7cf2c93423ea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Signs/Prop_Flag_Lockdown.prefab using Guid(244f59cc9dad8fc41a7cf2c93423ea0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a91ed41fec1c752861d1fd90222250') in 0.035659 seconds 
+  Import took 0.038533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 411.759559 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Rocks/SM_Rock_01.prefab
+  artifactKey: Guid(19af2d7782962034b888da4a19c00981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Rocks/SM_Rock_01.prefab using Guid(19af2d7782962034b888da4a19c00981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6db0a8ce30efe21ba18d909244c057') in 0.037822 seconds 
+  Import took 0.042627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Rocks/SM_Rock_02.prefab
+  artifactKey: Guid(302c10c91af28cf46bae42b40fa5eec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apocalyptic_World/Prefabs/Prefabs_SingleMeshes/Rocks/SM_Rock_02.prefab using Guid(302c10c91af28cf46bae42b40fa5eec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b8f82627926bbb30367a658b5de686') in 0.014146 seconds 
+  Import took 0.017274 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (798ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (655ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1840 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.7 MB.
+System memory in use after: 170.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2352.
+Total: 2.589400 ms (FindLiveObjects: 0.144300 ms CreateObjectMapping: 0.037700 ms MarkObjects: 2.394600 ms  DeleteObjects: 0.011900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.816 seconds
+Domain Reload Profiling:
+	ReloadAssembly (816ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (664ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1840 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.7 MB.
+System memory in use after: 170.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2354.
+Total: 2.832000 ms (FindLiveObjects: 0.168200 ms CreateObjectMapping: 0.045300 ms MarkObjects: 2.602000 ms  DeleteObjects: 0.015500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
